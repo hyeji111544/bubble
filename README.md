@@ -10,4 +10,5 @@
 | ex05  | 점프하기                      | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex05)                 | [Blog](https://inblog.ai/hj/sts-버블버블-점프하기-33388)               |
 | ex06  | 충돌 확인                     | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex06)                 | [Blog](https://inblog.ai/hj/sts-버블버블-충돌감지-33391)               |
 | ex07  | 외벽 충돌 시 캐릭터 정지       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex07)                 | [Blog](https://inblog.ai/hj/sts-버블버블-외벽-충돌-시-캐릭터-정지-36946)               |
-
+| ex08  | 바닥 감지 시 캐릭터 정지       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex08)                 | [Blog](https://inblog.ai/hj/sts-버블버블-캐릭터-업-다운-38143)               |
+| ex09  | 빈바닥에서 캐릭터 하강       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex09)                 | [Blog](https://inblog.ai/hj/sts-버블버블-캐릭터-업-다운-38143)               |
