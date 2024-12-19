@@ -12,3 +12,5 @@
 | ex07  | 외벽 충돌 시 캐릭터 정지       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex07)                 | [Blog](https://inblog.ai/hj/sts-버블버블-외벽-충돌-시-캐릭터-정지-36946)               |
 | ex08  | 바닥 감지 시 캐릭터 정지       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex08)                 | [Blog](https://inblog.ai/hj/sts-버블버블-캐릭터-업-다운-38143)               |
 | ex09  | 빈바닥에서 캐릭터 하강       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex09)                 | [Blog](https://inblog.ai/hj/sts-버블버블-캐릭터-업-다운-38143)               |
+| ex10  | 물방울 기본 셋팅       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex10)                 | [Blog](https://inblog.ai/hj/sts-버블버블-물방울-기본-셋팅-38154)               |
+| ex11  | 물방울 움직이게 하기       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex11)                 | [Blog](https://inblog.ai/hj/sts-버블버블-물방울-움직이게-하기-38195)               |
