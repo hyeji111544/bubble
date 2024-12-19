@@ -33,6 +33,7 @@ public class Bubble extends JLabel implements Moveable{
 		this.player = player;
 		initObject();
 		initSetting();
+		initThread();
 	}
 	
 	private void initObject() {
@@ -53,22 +54,62 @@ public class Bubble extends JLabel implements Moveable{
 		setSize(50, 50);
 		state = 0;
 	}
+	
+	private void initThread() {
+		new Thread(()-> {
+			 System.out.println("스레드 실행 시작");
+			if(player.getPlayerDirection()==PlayerDirection.LEFT) {
+				left();
+			}else {
+				right();
+			}
+			System.out.println("스레드 실행 완료");
+		}) .start();
+	}
 
 	@Override
 	public void left() {
-		// TODO Auto-generated method stub
-		
+		left = true;
+		for(int i=0; i<400; i++) {
+			x--;
+			setLocation(x, y);
+			
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		up();
 	}
 
 	@Override
 	public void right() {
-		// TODO Auto-generated method stub
-		
+		right = true;
+		for(int i=0; i<400; i++) {
+			x++;
+			setLocation(x, y);
+			
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		up();
 	}
 
 	@Override
 	public void up() {
-		// TODO Auto-generated method stub
-		
+		while(true) {
+			y--;
+			setLocation(x, y);
+			
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 }

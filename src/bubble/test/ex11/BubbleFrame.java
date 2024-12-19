@@ -59,7 +59,6 @@ public class BubbleFrame extends JFrame {
 					}
 					break;
 				case KeyEvent.VK_SPACE:
-					System.out.println("스페이스");
 					Bubble bubble = new Bubble(player);
 					add(bubble);
 					break;
