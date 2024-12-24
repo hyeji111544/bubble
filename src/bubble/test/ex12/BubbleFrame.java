@@ -7,8 +7,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class BubbleFrame extends JFrame {
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
+public class BubbleFrame extends JFrame {
+	private BubbleFrame mContext = this;
 	private JLabel backgroundMap;
 	private Player player;
 
@@ -59,7 +64,7 @@ public class BubbleFrame extends JFrame {
 					}
 					break;
 				case KeyEvent.VK_SPACE:
-					Bubble bubble = new Bubble(player);
+					Bubble bubble = new Bubble(mContext);
 					add(bubble);
 					break;
 				}
