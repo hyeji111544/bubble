@@ -74,10 +74,13 @@ public class Bubble extends JLabel implements Moveable{
 				break;
 			}
 			
-			if((Math.abs(x-enemy.getX()) > 40 && Math.abs(x-enemy.getX())<60) &&
+			if((Math.abs(x-enemy.getX()) < 10) &&
 					(Math.abs(y-enemy.getY()) > 0 && Math.abs(y-enemy.getY())<50)) {
 				System.out.println("적군 충돌");
-				attack();
+				if(enemy.getState() == 0) {
+					attack();
+					break;
+				}
 			}
 			
 			try {
@@ -101,6 +104,14 @@ public class Bubble extends JLabel implements Moveable{
 				break;
 			}
 			
+			if((Math.abs(x-enemy.getX()) < 10) &&
+					(Math.abs(y-enemy.getY()) > 0 && Math.abs(y-enemy.getY())<50)) {
+				System.out.println("적군 충돌");
+				if(enemy.getState() == 0) {
+					attack();
+					break;
+				}
+			}
 			
 			try {
 				Thread.sleep(1);
@@ -114,7 +125,10 @@ public class Bubble extends JLabel implements Moveable{
 	@Override
 	public void attack() {
 		state = 1;
+		enemy.setState(1);
 		setIcon(bubbled);
+		mContext.remove(enemy); //메모리에서 사라진다
+		mContext.repaint();
 	}
 
 	@Override
@@ -128,13 +142,19 @@ public class Bubble extends JLabel implements Moveable{
 			}
 			
 			try {
-				Thread.sleep(1);
+
+				if(state==0) { // 기본
+					Thread.sleep(1);
+				}else { // 공격 성공 물방울
+					Thread.sleep(10);
+				}
+			
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
+		if(state == 0) clearBubble(); // 천장에 버블이 도착하고 나서 3초 후에 메모리에서 소멸
 		
-		clearBubble(); // 천장에 버블이 도착하고 나서 3초 후에 메모리에서 소멸
 	}
 	
 	private void clearBubble() {
