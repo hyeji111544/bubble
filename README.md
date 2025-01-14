@@ -1,5 +1,5 @@
 # bubble
-![GIF 2024-12-04 오후 2-42-19](https://github.com/user-attachments/assets/644f52b9-1b0e-43e4-99a1-9d7d00c77769)
+![GIF 2025-01-14 오후 3-16-07](https://github.com/user-attachments/assets/4badc379-b4eb-4bbe-9f55-5ab27571c8b9)
 
 | 번호  | 프로젝트 단계                 | Git 링크                 | Blog 링크                |
 |-------|-------------------------------|--------------------------|--------------------------|
