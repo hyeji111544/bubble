@@ -14,3 +14,8 @@
 | ex09  | 빈바닥에서 캐릭터 하강       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex09)                 | [Blog](https://inblog.ai/hj/sts-버블버블-캐릭터-업-다운-38143)               |
 | ex10  | 물방울 기본 셋팅       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex10)                 | [Blog](https://inblog.ai/hj/sts-버블버블-물방울-기본-셋팅-38154)               |
 | ex11  | 물방울 움직이게 하기       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex11)                 | [Blog](https://inblog.ai/hj/sts-버블버블-물방울-움직이게-하기-38195)               |
+| ex12  | 방울 벽 충돌 시 멈추기 / 물방울 메모리 해제       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex12)                 | [Blog](https://inblog.ai/hj/sts-버블버블-물방울-완성하기-38589)               |
+| ex13  | 코드 리팩토링       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex13)                 | [Blog](https://inblog.ai/hj/sts-버블버블-리팩토링-하기-39820)               |
+| ex14  | 적군 기본 세팅 / 물방울 공격하기 준비 / 방울 공격하기 완료       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex14)                 | [Blog](https://inblog.ai/hj/sts-버블버블-적군-만들기-39821)               |
+| ex15  | 물방울이 된 적군 터트리기       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex15)                 | [Blog](https://inblog.ai/hj/sts-버블버블-물방울로-공격하기-40303)               |
+| ex16  | 적 움직이게 하기       | [Git](https://github.com/hyeji111544/bubble/tree/main/bin/bubble/test/ex16)                 | [Blog](https://inblog.ai/hj/sts-버블버블-적-움직이기-40305)               |
